@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finished CRUD task steps</title>
+    
+<head>
+    <title>PHP CRUD</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+</head>
+<body>
+    <div class="container">
+    <form>
+        <h2>Guidelines</h2>
+        <div>
+            <label><input type="checkbox" checked/> Create POST Form with Name and Location input fields and Save button</label></br>
+            <label><input type="checkbox" checked/> Add div's and Bootstrap classes to the form to make it look good, center the form</label></br>
+            <label><input type="checkbox" checked/> Create process.php, add it to Form action and include it from index.php</label></br>
+            <label><input type="checkbox" checked/> Create the MySQL database "crud" and table "data" with id, name, and location fields</label></br>
+            <label><input type="checkbox" checked/> Connect to the database and insert the Name and Location records into the "data" table uf tge Save Button has been pressed </label></br>
+            <label><input type="checkbox" checked/> Connect to the database, select the existing records and create the loop to display them above the Form in an HTML table. Add Bootstrap 4 classes to style and center the table</label></br>
+            <label><input type="checkbox" checked/> Add Edit and Delete link buttons, pass the id of the record as GET variable in the URL in both links</label></br>
+            <label><input type="checkbox" checked/> If the Delete button has been clicked, delete the record from the "data" using passed id from the $_GET['delete'] variable value</label></br>
+            <label><input type="checkbox" checked/> Create session messages and message types for Save and Delete buttons, redirect the user back to index.php for both</label></br>
+            <label><input type="checkbox" checked/> Display Save and Delete messages with $_SESSION at the top of the page using Bootstrap 4 classes appropriate for each message type</label></br>
+            <label><input type="checkbox" checked/> If the Edit button has been clicked, select the existing record from database, set $name and $location variables and display them in the Form input fields.</label></br>
+            <label><input type="checkbox" checked/> Set the $update variable to true inside the Edit button if statement. Set the $update variable to false out the if statement</label></br>
+            <label><input type="checkbox" checked/> Add hidden input field with the value of the record id to access it from POST</label></br>
+            <label><input type="checkbox" checked/> If the Update button has been clicked, update the record with new $name and $location using the value from the hidden id input field. Set the value of $id to 0 outside the if statement.</label></br>
+            <label><input type="checkbox" checked/> Set the SESSION message to updated, set the message type and redirect back to index.php</label></br>
+        </div>
+    </form>
+
+    <div class="form-group">
+        <a class="btn btn-info" href="./index.php">Go back to CRUD page</a>
+        </div>
+    </div>
+</body>
+</html>
